@@ -1,0 +1,479 @@
+/*
+Formatações gerais 
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+a {
+  text-align: center;
+  padding-inline: 15px;
+  padding-block: 14.5px;
+}
+ul li a {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+h2 {
+  margin: 30px 0 20px 0;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-size: 17px;
+  font-family: tahoma;
+}
+p {
+  font-family: Tahoma;
+  font-size: 13px;
+}
+
+/*
+  Containers
+  */
+
+#container_principal {
+  margin: auto;
+  width: 980px;
+  height: auto;
+  padding: 30px 15px 0 15px;
+}
+#containerLoja_Serviços {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#serviços_itens_container {
+  margin: 0;
+  display: flex;
+  width: 950px;
+  height: 315px;
+}
+#container_TituloLojaServiços {
+  display: flex;
+}
+#loja_itens_container {
+  margin: 0;
+  display: flex;
+  width: 950px;
+  height: 278px;
+}
+#container_itemLoja01e03 {
+  display: block;
+  margin-right: 25px;
+  width: 320px;
+  height: 278px;
+  border: 1px solid #1c8e99;
+}
+#container_itemLoja02 {
+  margin-right: 25px;
+  width: 320px;
+  height: 278px;
+  border: 1px solid #660000;
+}
+#container_itempreço {
+  display: flex;
+}
+.boxpreço {
+  width: fit-content;
+}
+.boxpreço2 {
+  width: 300px;
+  height: 96px;
+  display: flex;
+}
+#cardbox {
+  display: flex;
+  justify-content: center;
+  height: 164px;
+  width: 298px;
+}
+#cardbox2 {
+  display: flex;
+  justify-content: center;
+  height: 136px;
+  width: 298px;
+}
+#linha {
+  margin-block: 15px;
+  width: 950px;
+  height: 17px;
+  background-color: #444444;
+}
+
+/*
+  Imagens
+  */
+
+#logo {
+  position: absolute;
+  margin: -65px 0 0 15px;
+}
+#banner {
+  margin-bottom: -4px;
+}
+#droneBlue {
+  position: absolute;
+  background: url(../img/galerias.fw.png);
+  background-position: -135px -15px;
+  margin-left: 61.5%;
+  display: inline-block;
+  height: 85px;
+  width: 136px;
+}
+#droneRed {
+  position: absolute;
+  background: url(../img/galerias.fw.png);
+  background-position: -10px -15px;
+  margin-left: 62%;
+  display: inline-block;
+  height: 85px;
+  width: 136px;
+}
+#img_cursos01 {
+  background-image: url(../img/galerias2.fw.png);
+  width: 415px;
+  height: 137px;
+}
+#img_cursos02 {
+  background-image: url(../img/galerias2.fw.png);
+  background-position: 0px -137px;
+  width: 415px;
+  height: 137px;
+}
+#img_cursos03 {
+  background-image: url(../img/galerias2.fw.png);
+  background-position: 0px 137px;
+  width: 415px;
+  height: 137px;
+}
+#img_item01 {
+  background: url(../img/galerias3.fw.png);
+  display: inline-block;
+  height: 164px;
+  width: 298px;
+}
+#img_item02 {
+  background: url(../img/galerias3.fw.png);
+  display: inline-block;
+  height: 164px;
+  width: 244px;
+  background-position: -288px 0px;
+}
+#img_item03 {
+  background: url(../img/galerias3.fw.png);
+  display: inline-block;
+  height: 164px;
+  width: 239px;
+  background-position: 239px 0px;
+}
+
+#img_carrinho {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  background-image: url(..//img/galerias.fw.png);
+  display: flex;
+  background-position: -35px -115px;
+  height: 60px;
+  width: 65px;
+  margin-top: 2%;
+  margin-left: 16.5%;
+}
+
+/*
+  Menu Top
+  */
+
+#menu_top {
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #1b8e99;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 45px;
+  position: relative;
+  margin: 0;
+}
+.home {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #92c9ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+}
+.home :hover {
+  font-weight: 770;
+}
+.menu_itemTop :hover {
+  font-weight: 800;
+  color: #fff;
+  background-color: #95ccf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+}
+#texto_MenuTop {
+  display: flex;
+  align-items: center;
+}
+#texto_MenuTop :hover {
+  display: block;
+  align-items: center;
+  background-color: #95ccf6;
+  font-weight: 800;
+}
+
+/*
+  Menu Bottom
+  */
+
+#menu_Bottom {
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #660000;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 45px;
+  position: relative;
+  margin: 0;
+}
+.menu_itemBottom :hover {
+  font-weight: 800;
+  color: #660000;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+}
+#textoMenuBottom {
+  display: flex;
+  align-items: center;
+}
+#textoMenuBottom :hover {
+  color: #660000;
+  display: block;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 800;
+}
+
+/*
+  Texto Loja Virtual
+  */
+
+.titulo_Loja {
+  color: #660000;
+  border-bottom: 2px solid #660000;
+  width: 38.4em;
+}
+.titulo_item01e03 {
+  font-family: tahoma;
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+  background-color: #dfeff1;
+  color: #1b8e99;
+}
+.titulo_item02 {
+  font-family: Tahoma;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+  background-color: #eadcdc;
+  color: #660000;
+}
+.descrição_item01e03 {
+  margin: 13px;
+  color: #1b8d99;
+}
+.descrição_item02 {
+  margin: 13px;
+  color: #660000;
+}
+#preço_item01 {
+  margin-right: 25px;
+  background-color: #1c8e99;
+  width: 300px;
+  display: inline-flex;
+  height: 96px;
+}
+#preço_item02 {
+  margin-right: 25px;
+  background-color: #660000;
+  display: inline-flex;
+  width: 300px;
+  height: 96px;
+}
+#preço_item03 {
+  background-color: #1c8e99;
+  width: 300px;
+  display: inline-flex;
+  height: 96px;
+}
+.titulo_preço {
+  margin-right: 0;
+  display: flex;
+  margin: 30px 0 0 15px;
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 30px;
+  color: #fff;
+}
+.titulo_preço2 {
+  margin-right: 0;
+  margin-block: 0;
+  margin-left: 17px;
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 14px;
+  color: #fff;
+}
+
+/*
+  Serviços
+  */
+.title_serviços {
+  font-weight: 550;
+  color: #1b8e99;
+  border-bottom: 2px solid #1c8e99;
+  width: 850px;
+}
+.descrição_cursos {
+  margin: 7px;
+  color: #660000;
+}
+.descrição_manutenção {
+  margin: 7px;
+  color: #1b8d99;
+}
+.descrição_filmagens {
+  margin: 7px;
+  color: #660000;
+}
+
+#serviços_item01_03_container {
+  display: block;
+  margin-right: 25px;
+  width: 300px;
+  height: 313px;
+  border: 1px solid #660000;
+}
+#serviços_item02_container {
+  display: block;
+  margin-right: 25px;
+  width: 320px;
+  height: 313px;
+  border: 1px solid #1b8d99;
+}
+
+#box_serviços1 {
+  margin-right: 25px;
+  background-color: #660000;
+  width: 300px;
+  display: inline-flex;
+  height: 7px;
+}
+#box_serviços2 {
+  margin-right: 25px;
+  background-color: #1b8d99;
+  width: 300px;
+  display: inline-flex;
+  height: 7px;
+}
+#box_serviços3 {
+  background-color: #660000;
+  width: 300px;
+  display: inline-flex;
+  height: 7px;
+}
+/*
+  Rodapé
+  */
+#rodapeContainer {
+  margin-top: 143px;
+}
+#logo_rodape {
+  margin-left: 20px;
+  background-image: url(../img/galerias.fw.png);
+  width: 132px;
+  height: 30px;
+  background-position: -133px -128px;
+}
+.textoRodapeTop {
+  margin-left: 80px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+.textoRodapeBottom {
+  margin-right: 120px;
+  font-size: 14px;
+  font-family: Tahoma;
+  color: #fff;
+}
+#droneContainer {
+  display: inline;
+}
+#Drone01 {
+  margin-top: 100px;
+  position: absolute;
+  background-image: url(../img/galerias.fw.png);
+  height: 43px;
+  width: 137px;
+  background-position: -19px -183px;
+}
+#Drone02 {
+  margin-left: 420px;
+  margin-top: 100px;
+  position: absolute;
+  background-image: url(../img/galerias.fw.png);
+  height: 43px;
+  width: 137px;
+  background-position: -19px -183px;
+}
+#Drone03 {
+  margin-left: 660px;
+  margin-top: 100px;
+  position: absolute;
+  background-image: url(../img/galerias.fw.png);
+  height: 43px;
+  width: 137px;
+  background-position: -19px -183px;
+}
+#professor {
+  margin-bottom: 170px;
+  position: absolute;
+  background-image: url(../img/galerias.fw.png);
+  height: 196px;
+  background-position: -284px -4px;
+  width: 103px;
+}
+#rodapeTop {
+  display: flex;
+  align-items: center;
+  background-color: #1b8d99;
+  width: 980px;
+  height: 96px;
+}
+#rodapeBottom {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: #660000;
+  width: 980px;
+  height: 26px;
+  margin-bottom: 10px;
+}
