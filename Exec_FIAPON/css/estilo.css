@@ -120,7 +120,7 @@ p {
   position: absolute;
   background: url(../img/galerias.fw.png);
   background-position: -135px -15px;
-  margin-left: 61.5%;
+  margin-left: 43.5%;
   display: inline-block;
   height: 85px;
   width: 136px;
@@ -129,7 +129,7 @@ p {
   position: absolute;
   background: url(../img/galerias.fw.png);
   background-position: -10px -15px;
-  margin-left: 62%;
+  margin-left: 44%;
   display: inline-block;
   height: 85px;
   width: 136px;
@@ -181,8 +181,8 @@ p {
   background-position: -35px -115px;
   height: 60px;
   width: 65px;
-  margin-top: 2%;
-  margin-left: 16.5%;
+  margin-top: 1%;
+  margin-left: 11.5%;
 }
 
 /*
